@@ -1,0 +1,353 @@
+/* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  */
+:root{
+    --red-2: hsl(355, 65%, 65%);
+    --red: hsl( 5, 48%, 51%);
+    --orange:   rgb(199, 186, 161);
+    --orange-2: hsl( 39, 67%, 69%);
+    --orange-3:rgb(238, 160, 50);
+    --cyan:   hsl(187, 47%, 55%);
+    --blue:   hsl(207, 82%, 66%);
+    --blue-2:   hsl(207, 71%, 49%);
+    --purple:   hsl(286, 60%, 67%); 
+    --green: hsl( 95, 38%, 62%); 
+    
+    --dark-100: #F5F5F5;
+    --dark-200: #EEEEEE;
+    --dark-300: #E0E0E0;
+    --dark-400: #BDBDBD;
+    --dark-500: #9E9E9E;
+    --dark-600: #757575;
+    --dark-700: #616161 ;
+    --dark-800: #424242;
+    --dark-900: #212121;
+    --dark-999: #080808;
+    }
+*{
+    font-family: 'RobSource Sans Pro', sans-serif;
+    color: var(--orange);
+    box-sizing: border-box;
+    
+}
+html{
+    background: url("./../DB/home-page-top-background.jpg");
+    /* background-size: 5200px 3300px;
+    background-position: -1150px -450px ;
+    background-repeat: no-repeat; */
+    background-size: 170% 170%;
+    background-position: -250px -150px;
+    background-repeat: no-repeat;
+    
+    
+}
+/*for firefox dotted line on buttons*/
+
+a:focus,
+a:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border: 0;
+	outline: 0;
+}
+
+.icon-vcard:before { content: '\e800'; } 
+.icon-mail:before { content: '\e803'; } 
+.icon-home:before { content: '\e81f'; } 
+.icon-facebook:before { content: '\f09a'; } 
+.icon-mail-alt:before { content: '\f0e0'; } 
+.icon-google:before { content: '\f1a0'; } 
+.Container {
+    background-color: black;
+    margin:auto;
+    min-height: 700px;
+    padding-bottom: 30px;
+    padding-top: 150px;
+    width: 1000px;
+    min-height: 180vh;
+    position: relative;
+}
+
+.nava{
+    background-color: black;
+    background: url("./../DB/5-line.png");
+    box-sizing: border-box;
+    /* background-repeat: repeat-x; */
+    background-size: contain, cover;
+    /* background-position-y: center;  */
+    margin-left: auto;
+    margin-right: auto;
+    
+    position: relative;
+    display: flex;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 80px;
+    width: 98%;
+    
+}
+
+.top-picture{
+position: absolute;
+background: transparent  url("./../DB/home-page-top-background.jpg");
+
+background-size: cover;
+background-position: center;
+top: 0;
+left: 0;
+width: 100%;
+height: 150px;
+
+
+
+}
+.music-key{
+    position: absolute;
+ 
+    background: url("./../DB/g-key.png");
+    background-size: cover;
+    background-position: center;
+    top: 5px;
+    left: 15px;
+    width: 70px;
+    height: 70px;
+    z-index: 25;
+    
+}
+.nava button {
+    /* background-image: url("http://gintarekairyte.com/DB/5-line.png"); */
+    background-color: black;
+    border-radius: 5px;
+    border-color: var(--orange-3);
+    border-style: solid;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto 10px;
+    padding: 5px 0px;
+    width: 150px;
+}
+.nava button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    background-color: var(--dark-900);
+}
+
+.mainart{
+    
+}
+.mainart div {
+    margin-top: 0px;
+    
+    padding:0px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+/* .mainart div .con2 {
+    margin-top: 40px;
+    padding:10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+} */
+
+.mainart article{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: auto;
+    z-index: 1;
+}
+.table-pricelists{
+margin-left: auto;
+margin-right: auto;
+width: 48%;
+
+background-color: var(--dark-999);
+border-radius: 10px;
+
+
+}
+
+.mainart article.con{
+    width: 400px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.mainart article.con:first-child{
+    width: 600px;
+    padding: 10px;
+    
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.mainart img, .article-corect{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 380px;
+    z-index: 0;
+    margin-bottom: 0px;
+}
+/* .mainart article:last-child{
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: auto;
+} */
+
+/*Small devices (landscape phones, 576px and up)*/
+/* (min-width: 576px) and */
+@media  (max-width: 767px) {
+	.Container {
+        width: 90vw;
+        /* padding-top: 150px; */
+        position: relative;
+
+    }
+    
+    .nava{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        background: none;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 220px;
+        width: 100%;
+        
+    }
+    .nava button{
+        width: 230px;
+        height: 80px;
+        position: static;
+        margin: 2px auto;
+    }
+    .mainart div:first-child {
+        margin-top: 70px;
+        position: static;
+    }
+    .mainart div {
+        margin-top: 0px;
+        position: static;
+    }
+    .mainart article{
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .mainart article.con{
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .mainart article.con:first-child{
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .article-corect, .mainart img{
+        position: static;
+        
+        width: 90%;
+      
+    }
+    .music-key{
+        left: 5px;
+        top: 150px;
+    }
+    .table-pricelists{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    /* .top-picture{
+        position: absolute;
+        background: url("http://gintarekairyte.com/DB/home-page-top-background.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 150px;
+    } */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+    .Container {
+        width: 85vw;
+    }
+    .music-key{
+        left: 5px;
+    }
+    .nava{
+        background-color: black;
+        display: flex;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+        
+    }
+    .mainart div {
+        margin-top: 10px;
+        position: static;
+    }
+    .mainart img:first-child{
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      
+    }
+    .article-corect, .mainart img{
+        position: static;
+        
+        width: 90%;
+      
+    }
+    .nava button{
+        width: 90px;
+        height: 40px;
+        position: static;
+        margin: 5px auto;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+	
+}
