@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
 import './App.css';
+import './components/Config.css';
+import GihubLabel from './components/butttons';
 
 class App extends Component {
   render() {
     return (
       <>
+      <GihubLabel> <a href="https://github.com/Kratak/web-kratak">website in develop</a><br/> more details at github </GihubLabel>
       <nav>
         <i className="icon-home"><span>Home</span></i>
       </nav>

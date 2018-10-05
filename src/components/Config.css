@@ -1,0 +1,54 @@
+a:focus,
+a:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border: 0;
+	outline: 0;
+}
+
+* {
+	color: lightgrey;
+	/* font-family: 'Roboto Slab', serif; */
+	font-size: 15px;
+	font-weight: normal;
+	/*	background-color: #24292E;*/
+	box-sizing: border-box;
+	margin: 0;
+
+}
+
+:root{
+  --red-2: hsl(355, 65%, 65%);
+  --red: hsl( 5, 48%, 51%);
+  --orange:   rgb(199, 186, 161);
+  --orange-2: hsl( 39, 67%, 69%);
+  --orange-3:rgb(238, 160, 50);
+  --cyan:   hsl(187, 47%, 55%);
+  --blue:   hsl(207, 82%, 66%);
+  --blue-2:   hsl(207, 71%, 49%);
+  --purple:   hsl(286, 60%, 67%); 
+  --green: hsl( 95, 38%, 62%); 
+  
+  --dark-100: #F5F5F5;
+  --dark-200: #EEEEEE;
+  --dark-300: #E0E0E0;
+  --dark-400: #BDBDBD;
+  --dark-500: #9E9E9E;
+  --dark-600: #757575;
+  --dark-700: #616161 ;
+  --dark-800: #424242;
+  --dark-900: #212121;
+  --dark-999: #080808;
+
+  --generic: var(--github);
+  --linkedin: #0077B5;
+  --github: whitesmoke;
+  --codeopen: #000000;
+  --gmail: #D54D40;
+
+
+  }
