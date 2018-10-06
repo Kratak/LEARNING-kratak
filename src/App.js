@@ -8,7 +8,10 @@ class App extends Component {
   render() {
     return (
       <>
-      <GihubLabel> <a href="https://github.com/Kratak/web-kratak">website in develop</a><br/> more details at github </GihubLabel>
+      <GihubLabel>
+         <a href="https://github.com/Kratak/web-kratak">website in develop</a>
+         <br/> more details at github 
+      </GihubLabel>
       <nav>
         <i className="icon-home"><span>Home</span></i>
       </nav>
