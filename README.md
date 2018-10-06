@@ -8,6 +8,8 @@ It's early bird of my websites generator/service.
   - Login and live edit, avaible soon.
 
 
+
+
 ### Tech
 
 Stuff used in this project.
@@ -24,6 +26,17 @@ Stuff used in this project.
 
  - Write MORE Tests
  - Add Night Mode
+
+### Change Log
+
+##### 06.10.2018
+- `readme.md`
+- styled-components css-in-js
+- firebase support 
+- react-testing-library
+
+##### 03.10.2018
+- Init, basci template and init.
 
 [//]: # (this is simple comment in .md file)
 
