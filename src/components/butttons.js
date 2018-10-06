@@ -8,11 +8,19 @@ import React, { Component } from 'react';
   text-align: center;
   padding: 10px;
   color: black;
-  background-color: grey ;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  border-radius:20px;
   font-weight: bold;
   width: 400px;
   height: 100px;
   position: absolute;
-  
+  a{
+    &:visited{
+      color: black;
+    }
+    &:link{
+      color: black;
+    }
+  }
 `;
 export default GihubLabel
